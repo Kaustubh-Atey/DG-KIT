@@ -1,5 +1,5 @@
 import os
-from dataset import DG_Dataset
+from DG_Dataset import DG_Dataset
 from torchvision import transforms
 
 root_dir = "/janaki/backup/users/student/rs/kaustubh.atey/DG_Datasets"
