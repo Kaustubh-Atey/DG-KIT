@@ -3,7 +3,7 @@ from DG_Dataset import DG_Dataset
 from torchvision import transforms
 
 root_dir = "/janaki/backup/users/student/rs/kaustubh.atey/DG_Datasets"
-dataset_name = "OfficeHome"   # "PACS", "OfficeHome",
+dataset_name = "OfficeHome"   # "PACS", "OfficeHome", "VLCS"
 
 # (2) Build dataset (optionally pick a subset of domains)
 tfm = transforms.Compose([
